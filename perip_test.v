@@ -73,7 +73,7 @@ raiz_top mult1 (
   .clk(clk),
   .start(init),
   .DONE(done),
-  .P(result),
+  .P(result), // cambiar tamaño de result de [31:0] a [7:0]
   .a(A)
  );
 
